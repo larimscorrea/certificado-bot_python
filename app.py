@@ -18,7 +18,7 @@ for indice, line in enumerate(sheet_students.iter_rows(min_row=2)):
 
     font_name = ImageFont.truetype('./tahomabd.ttf')
     font_geral = ImageFont.truetype('./tahoma.ttf')
-    font_data = ImageFont.true('./tahoma.ttf')
+    font_data = ImageFont.truetype('./tahoma.ttf')
 
     image = Image.open('./certificado_padrao.jpg')
     draw = ImageDraw.Draw(image)
